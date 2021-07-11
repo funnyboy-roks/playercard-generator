@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            height: 100vh;
+            align-items: center;
+        }
+
+        div {
+            padding: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="http://localhost:5000/test" alt="test">
+    </div>
+
+    <script>
+        document.querySelector('img').setAttribute('src', location.hash.replace('#', ''));
+
+        let last = location.hash;
+        setInterval(() => {
+            if (location.hash != last) {
+                location.reload();
+            } else {
+                last = location.hash;
+            }
+        }, 1000)
+    </script>
+</body>
+
+</html>

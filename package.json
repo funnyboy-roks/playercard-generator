@@ -1,0 +1,20 @@
+{
+  "name": "canvasthing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "funnyboy-roks <funnyboyroks@gmail.com>",
+  "license": "Apache-2.0",
+  "description": "",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1"
+  }
+}
