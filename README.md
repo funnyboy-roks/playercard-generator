@@ -24,7 +24,7 @@ Example:
 <Address TBD>/playercard
     ?name=funnyboy_roks
     &color=09816b
-    &stats=Rank:Dev,Time%20Played:10%20minutes,Pronouns:He/Him,Birthday:May%207,Deaths:94
+    &stats=Rank:Dev,Time%20Played:1m%201w%206d%208h%2052m%2024s,Pronouns:He/Him,Birthday:May%207,Deaths:94
 ```
 
 will get
